@@ -1,0 +1,6 @@
+# /dev/sda1
+UUID=1d4deb35-0c08-4ecb-873a-1c8502fba5a0	/         	ext4      	rw,relatime,data=ordered	0 1
+
+# Mount swap file
+/swapfile 					none 		swap 		defaults 			0 0
+tmpfs					/home/den/.cache	tmpfs		noatime,nodev,nosuid,size=1G	0 0
