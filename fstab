@@ -3,4 +3,9 @@ UUID=1d4deb35-0c08-4ecb-873a-1c8502fba5a0	/         	ext4      	rw,relatime,data
 
 # Mount swap file
 /swapfile 					none 		swap 		defaults 			0 0
+
+# Mount temporary filesystem
 tmpfs					/home/den/.cache	tmpfs		noatime,nodev,nosuid,size=1G	0 0
+
+# Mount media library
+/home/den/Downloads/torrent_downloads/Movies    /mnt/Movies   ext4            bind,ro                         0 0

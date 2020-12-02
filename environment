@@ -10,8 +10,8 @@ EDITOR=vim
 # avoid loading ranger.rc twice
 RANGER_LOAD_DEFAULT_RC=false
 
-# set environment variable for qt5ct (qt5 themes and styles)
-QT_QPA_PLATFORMTHEME="qt5ct"
+# Configure Qt backend
+QT_QPA_PLATFORMTHEME=qt5ct
 
 # Set video drivers
 # LIBVA_DRIVER_NAME=radeonsi
